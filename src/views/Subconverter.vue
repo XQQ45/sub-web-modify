@@ -338,7 +338,7 @@ export default {
           "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
-          "萌新专属后端": "https://hztfbjvobdyj.ap-southeast-1.clawcloudrun.com",
+          "阿萌新专属后端": "https://hztfbjvobdyj.ap-southeast-1.clawcloudrun.com",
           "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
@@ -354,6 +354,10 @@ export default {
           {
             label: "CM规则",
             options: [
+              {
+                label: "萌新自用配置",
+                value: "https://raw.githubusercontent.com/XQQ45/proxies/rule/config.ini"
+              },
               {
                 label: "CM_Online 默认版 识别港美地区(与Github同步)",
                 value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
