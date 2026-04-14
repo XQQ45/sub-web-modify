@@ -338,7 +338,7 @@ export default {
           "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
-          "萌新专属后端": "https://hztfbjvobdyj.ap-southeast-1.clawcloudrun.com",
+          "萌新后端": "https://change.mxsubapi.dpdns.org",
 		  "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
@@ -355,7 +355,7 @@ export default {
             label: "规则",
             options: [
               {
-                label: "萌新自用规则",
+                label: "萌新规则",
                 value: "https://raw.githubusercontent.com/XQQ45/proxies/rule/config.ini"
               },
 			  {
