@@ -785,7 +785,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://hztfbjvobdyj.ap-southeast-1.clawcloudrun.com" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://change.mxsubapi.dpdns.org" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
         remoteConfig: "https://raw.githubusercontent.com/XQQ45/proxies/rule/config.ini",
         excludeRemarks: "",
